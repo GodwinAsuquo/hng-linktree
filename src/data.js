@@ -1,5 +1,4 @@
 
-
 export const datas = [
     {   id: 'twitter',
         name: 'Twitter Link',
