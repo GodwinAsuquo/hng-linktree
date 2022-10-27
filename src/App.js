@@ -1,4 +1,4 @@
-import profilePic from './assets/profile__img.png'
+import profilePic from './assets/circlePic.png'
 import { datas } from './data';
 import slack from './assets/slack.svg'
 import github from './assets/github.svg'
@@ -10,19 +10,20 @@ function App() {
  return (
     <section className='text-center mt-14'>
     <div className='relative flex justify-center' id='profile__img'>
-        <img src={profilePic} alt="" />
+        <img className='w-[20%] md:w-[8%]' src={profilePic} alt="" />
     <div className='absolute right-6 top-[-20px] md:hidden'>
     <img src={dots} alt="" />
     </div>
+    {/* <p id={}>Godwin Edet Asuquo</p> */}
     <div className='hidden absolute right-[22%] top-[-20px] md:block'>
     <img src={arrow} alt="" />
     </div>
     </div>
-    <p className='font-bold'>Annette Black</p>
+    <p className='font-bold mt-6 mb-14'>Godwin Asuquo</p>
     <div>
         {datas.map((data, index)=>{
             const {id, name, link} = data;
-            return <div className='bg-[#EAECF0] w-[90%] md:w-[80%] mx-auto py-4 my-4 rounded-lg text-sm' key={index}>
+            return <div className='bg-[#EAECF0] w-[90%] md:w-[80%] mx-auto py-5 my-5 rounded-lg text-sm' key={index}>
                 <a target='_blank' href={link} id={id}>{name}</a>
             </div>
         })}
