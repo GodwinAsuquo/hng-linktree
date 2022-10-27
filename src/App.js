@@ -9,12 +9,13 @@ import dots from './assets/dots.svg'
 function App() {
  return (
     <section className='text-center mt-14'>
-    <div className='flex justify-center' id='profile__img'>
+    <div className='relative flex justify-center' id='profile__img'>
         <img src={profilePic} alt="" />
-    </div>
-    <div className='md:hidden'>
+        <div className='absolute right-6 top-[-20px] md:hidden'>
     <img src={dots} alt="" />
     </div>
+    </div>
+    
     <div className='hidden md:block'>
     <img src={arrow} alt="" />
     </div>
