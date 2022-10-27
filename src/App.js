@@ -11,13 +11,12 @@ function App() {
     <section className='text-center mt-14'>
     <div className='relative flex justify-center' id='profile__img'>
         <img src={profilePic} alt="" />
-        <div className='absolute right-6 top-[-20px] md:hidden'>
+    <div className='absolute right-6 top-[-20px] md:hidden'>
     <img src={dots} alt="" />
     </div>
-    </div>
-    
-    <div className='hidden md:block'>
+    <div className='hidden absolute right-[22%] top-[-20px] md:block'>
     <img src={arrow} alt="" />
+    </div>
     </div>
     <p className='font-bold'>Annette Black</p>
     <div>
