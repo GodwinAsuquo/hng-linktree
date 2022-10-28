@@ -14,7 +14,10 @@ function App() {
     <div className='absolute right-6 top-[-20px] md:hidden'>
     <img src={dots} alt="" />
     </div>
-    {/* <p id={}>Godwin Edet Asuquo</p> */}
+    
+    {/* slack username available in code but hidden in webpage  */}
+    <p className='hidden' id='slack'>Godwin Edet Asuquo</p>
+
     <div className='hidden absolute right-[22%] top-[-20px] md:block'>
     <img src={arrow} alt="" />
     </div>
