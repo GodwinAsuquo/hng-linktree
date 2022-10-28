@@ -14,7 +14,7 @@ export const datas = [
     },
     {   id: 'book__python',
         name: 'Python Books',
-        link: 'https://books.zuri.team/'
+        link: 'https://books.zuri.team/python-for-beginners?ref_id=<asuquo>'
     },
     {   id: 'pitch',
         name: 'Background Check for Coders',
