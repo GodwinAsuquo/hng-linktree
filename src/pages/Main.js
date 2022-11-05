@@ -2,7 +2,6 @@ import profilePic from '../assets/circlePic.png'
 import { datas } from '../data';
 import slack from '../assets/slack.svg'
 import github from '../assets/github.svg'
-import Footer from '../Footer';
 import arrow from '../assets/arrow.svg'
 import dots from '../assets/dots.svg'
 import ReactTooltip from 'react-tooltip';
@@ -36,23 +35,19 @@ const Main = () => {
         <ReactTooltip place='top' effect='solid'/>
             </>
             )
-        
         })}
     </div>
-
         <Link to='/contact'>
-        <button className='bg-[#EAECF0] w-[90%] md:w-[80%] mx-auto py-5 my-5 rounded-lg text-sm hover:bg-gray-300 hover:shadow-xl'>
+        <button className='bg-[#EAECF0] w-[90%] md:w-[80%] mx-auto py-5 rounded-lg text-sm hover:bg-gray-300 hover:shadow-xl'>
             Contact Me
         </button>
         </Link>
     
-
     <div className='flex justify-center space-x-6 mt-12'>
         <img src={slack} alt="" />
         <img src={github} alt="" />
     </div>
 
-    <Footer />
     </section>
  )
 }
