@@ -38,7 +38,7 @@ const Main = () => {
         })}
     </div>
         <Link to='/contact'>
-        <button className='bg-[#EAECF0] w-[90%] md:w-[80%] mx-auto py-5 rounded-lg text-sm hover:bg-gray-300 hover:shadow-xl'>
+        <button id='contact' className='bg-[#EAECF0] w-[90%] md:w-[80%] mx-auto py-5 rounded-lg text-sm hover:bg-gray-300 hover:shadow-xl'>
             Contact Me
         </button>
         </Link>
